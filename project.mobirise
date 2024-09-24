@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "D Company - 11th ACR",
-    "currentPage": "index.html",
+    "currentPage": "page1.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -292,10 +292,134 @@
           },
           "_name": "gallery4",
           "_sourceTheme": "mobirise4",
-          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"1\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"1\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#efefef\">\n        \n        <header>Gallery</header>\n        <input type=\"gallery\" subtype=\"flex\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"2\" mbr-gallery-count=\"1\" mbr-gallery-first-count=\"1\" mbr-gallery-second-count=\"1\" mbr-gallery-third-count=\"1\" mbr-gallery-fourth-count=\"2\" mbr-gallery-show-text mbr-gallery-flex-vertical></div>\n    </div>\n\n</section>",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"1\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"1\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#efefef\">\n        \n        <header>Gallery</header>\n        <input type=\"gallery\" subtype=\"flex\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"2\" mbr-gallery-count=\"2\" mbr-gallery-first-count=\"1\" mbr-gallery-second-count=\"1\" mbr-gallery-third-count=\"1\" mbr-gallery-fourth-count=\"2\" mbr-gallery-show-text mbr-gallery-flex-vertical></div>\n    </div>\n\n</section>",
           "_anchor": "gallery4-8f",
           "_isUserblock": true,
           "_cid": "sNseeUo9YU",
+          "_protectedParams": [
+            "gallery"
+          ],
+          "_global": false,
+          "_once": false,
+          "_params": {
+            "gallery": [
+              {
+                "tags": "Awesome",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/2019-d-co-reunion-1086x720.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/2019-d-co-reunion-1086x720-800x530.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "2019 - Men",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/2017-d-co-reunion-2000x1125.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/2017-d-co-reunion-2000x1125-800x450.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "2017- Men",
+                "active": true
+              }
+            ]
+          }
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            "overflow": "hidden",
+            "box-sizing": "border-box",
+            ".mbr-slider .carousel-control": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-slider .carousel-control-prev": {
+              "left": "0",
+              "margin-left": "2.5rem"
+            },
+            ".mbr-slider .carousel-control-next": {
+              "right": "0",
+              "margin-right": "2.5rem"
+            },
+            ".mbr-slider .modal-body .close": {
+              "background": "#1b1b1b"
+            },
+            ".row > .row": {
+              "display": "block"
+            },
+            ".mbr-gallery-item": {
+              "width": "100%"
+            },
+            ".mbr-gallery-item > div::before": {
+              "content": "''",
+              "position": "absolute",
+              "left": "0",
+              "top": "0",
+              "width": "100%",
+              "height": "100%",
+              "background": "@overlayColor",
+              "opacity": "0",
+              "-webkit-transition": "0.2s opacity ease-in-out",
+              "transition": "0.2s opacity ease-in-out",
+              "& when (@gradOverlay)": {
+                "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+              }
+            },
+            ".mbr-gallery-item > div": {
+              "position": "relative",
+              "&:hover": {
+                ".mbr-gallery-title::before": {
+                  "background": "transparent !important"
+                },
+                "&:before": {
+                  "opacity": "@overlayOpacity !important"
+                }
+              }
+            },
+            ".mbr-gallery-title": {
+              "font-size": ".9em",
+              "position": "absolute",
+              "display": "block",
+              "width": "100%",
+              "bottom": "0",
+              "padding": "1rem",
+              "color": "#fff",
+              "z-index": "2",
+              "&:before": {
+                "content": "\" \"",
+                "width": "100%",
+                "height": "100%",
+                "top": "0",
+                "left": "0",
+                "z-index": "-1",
+                "position": "absolute",
+                "background": "@overlayColor !important",
+                "opacity": "@overlayOpacity",
+                "-webkit-transition": "0.2s background ease-in-out",
+                "transition": "0.2s background ease-in-out",
+                "& when (@gradOverlay)": {
+                  "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+                }
+              },
+              "text-align": "center"
+            }
+          },
+          "_name": "gallery4",
+          "_sourceTheme": "mobirise4",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"1\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"1\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#efefef\">\n        \n        <header>Gallery</header>\n        <input type=\"gallery\" subtype=\"flex\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"2\" mbr-gallery-count=\"2\" mbr-gallery-first-count=\"1\" mbr-gallery-second-count=\"1\" mbr-gallery-third-count=\"1\" mbr-gallery-fourth-count=\"2\" mbr-gallery-show-text mbr-gallery-flex-vertical></div>\n    </div>\n\n</section>",
+          "_anchor": "gallery4-8g",
+          "_isUserblock": true,
+          "_cid": "sNsefJfkmz",
           "_protectedParams": [
             "gallery"
           ],
@@ -321,136 +445,12 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/mon-group2-1.jpg",
-                "thumb": "file:///C:/Users/lvand/AppData/Local/Mobirise.com/Mobirise/projects/project-2020-03-15_200536/assets/images/mon-group2-1-646x430.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "MONDAY - GROUP 2<br>TERRI&nbsp; RICHARD&nbsp; SHARON&nbsp; PHIL&nbsp; MIKE&nbsp; TREVA&nbsp; BONNIE&nbsp; BERYL",
-                "active": true
-              }
-            ]
-          }
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            "overflow": "hidden",
-            "box-sizing": "border-box",
-            ".mbr-slider .carousel-control": {
-              "background": "#1b1b1b"
-            },
-            ".mbr-slider .carousel-control-prev": {
-              "left": "0",
-              "margin-left": "2.5rem"
-            },
-            ".mbr-slider .carousel-control-next": {
-              "right": "0",
-              "margin-right": "2.5rem"
-            },
-            ".mbr-slider .modal-body .close": {
-              "background": "#1b1b1b"
-            },
-            ".row > .row": {
-              "display": "block"
-            },
-            ".mbr-gallery-item": {
-              "width": "100%"
-            },
-            ".mbr-gallery-item > div::before": {
-              "content": "''",
-              "position": "absolute",
-              "left": "0",
-              "top": "0",
-              "width": "100%",
-              "height": "100%",
-              "background": "@overlayColor",
-              "opacity": "0",
-              "-webkit-transition": "0.2s opacity ease-in-out",
-              "transition": "0.2s opacity ease-in-out",
-              "& when (@gradOverlay)": {
-                "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
-              }
-            },
-            ".mbr-gallery-item > div": {
-              "position": "relative",
-              "&:hover": {
-                ".mbr-gallery-title::before": {
-                  "background": "transparent !important"
-                },
-                "&:before": {
-                  "opacity": "@overlayOpacity !important"
-                }
-              }
-            },
-            ".mbr-gallery-title": {
-              "font-size": ".9em",
-              "position": "absolute",
-              "display": "block",
-              "width": "100%",
-              "bottom": "0",
-              "padding": "1rem",
-              "color": "#fff",
-              "z-index": "2",
-              "&:before": {
-                "content": "\" \"",
-                "width": "100%",
-                "height": "100%",
-                "top": "0",
-                "left": "0",
-                "z-index": "-1",
-                "position": "absolute",
-                "background": "@overlayColor !important",
-                "opacity": "@overlayOpacity",
-                "-webkit-transition": "0.2s background ease-in-out",
-                "transition": "0.2s background ease-in-out",
-                "& when (@gradOverlay)": {
-                  "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
-                }
-              },
-              "text-align": "center"
-            }
-          },
-          "_name": "gallery4",
-          "_sourceTheme": "mobirise4",
-          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"1\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"1\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#efefef\">\n        \n        <header>Gallery</header>\n        <input type=\"gallery\" subtype=\"flex\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"2\" mbr-gallery-count=\"1\" mbr-gallery-first-count=\"1\" mbr-gallery-second-count=\"1\" mbr-gallery-third-count=\"1\" mbr-gallery-fourth-count=\"2\" mbr-gallery-show-text mbr-gallery-flex-vertical></div>\n    </div>\n\n</section>",
-          "_anchor": "gallery4-8g",
-          "_isUserblock": true,
-          "_cid": "sNsefJfkmz",
-          "_protectedParams": [
-            "gallery"
-          ],
-          "_global": false,
-          "_once": false,
-          "_params": {
-            "gallery": [
-              {
-                "tags": "Awesome",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/2013-d-co-reunion-2000x1500.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/2013-d-co-reunion-2000x1500-800x600.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "2013 - Men",
-                "active": false
-              },
-              {
-                "tags": "Responsive",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/mon-group2-1.jpg",
-                "thumb": "file:///C:/Users/lvand/AppData/Local/Mobirise.com/Mobirise/projects/project-2020-03-15_200536/assets/images/mon-group2-1-646x430.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "MONDAY - GROUP 2<br>TERRI&nbsp; RICHARD&nbsp; SHARON&nbsp; PHIL&nbsp; MIKE&nbsp; TREVA&nbsp; BONNIE&nbsp; BERYL",
+                "caption": "2013- Men",
                 "active": true
               }
             ]
@@ -540,7 +540,7 @@
           },
           "_name": "gallery4",
           "_sourceTheme": "mobirise4",
-          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"1\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"1\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#efefef\">\n        \n        <header>Gallery</header>\n        <input type=\"gallery\" subtype=\"flex\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"2\" mbr-gallery-count=\"1\" mbr-gallery-first-count=\"1\" mbr-gallery-second-count=\"1\" mbr-gallery-third-count=\"1\" mbr-gallery-fourth-count=\"2\" mbr-gallery-show-text mbr-gallery-flex-vertical></div>\n    </div>\n\n</section>",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"1\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"1\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#efefef\">\n        \n        <header>Gallery</header>\n        <input type=\"gallery\" subtype=\"flex\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"2\" mbr-gallery-count=\"2\" mbr-gallery-first-count=\"1\" mbr-gallery-second-count=\"1\" mbr-gallery-third-count=\"1\" mbr-gallery-fourth-count=\"2\" mbr-gallery-show-text mbr-gallery-flex-vertical></div>\n    </div>\n\n</section>",
           "_anchor": "gallery4-8h",
           "_isUserblock": true,
           "_cid": "sNsegxfv92",
@@ -569,12 +569,12 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/mon-group2-1.jpg",
-                "thumb": "file:///C:/Users/lvand/AppData/Local/Mobirise.com/Mobirise/projects/project-2020-03-15_200536/assets/images/mon-group2-1-646x430.jpg",
+                "image": "@PROJECT_PATH@/assets/images/2009-d-co-reunion-640x424.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/2009-d-co-reunion-640x424-640x424.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "MONDAY - GROUP 2<br>TERRI&nbsp; RICHARD&nbsp; SHARON&nbsp; PHIL&nbsp; MIKE&nbsp; TREVA&nbsp; BONNIE&nbsp; BERYL",
+                "caption": "2009- Men",
                 "active": true
               }
             ]
@@ -664,7 +664,7 @@
           },
           "_name": "gallery4",
           "_sourceTheme": "mobirise4",
-          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"1\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"1\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#efefef\">\n        \n        <header>Gallery</header>\n        <input type=\"gallery\" subtype=\"flex\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"2\" mbr-gallery-count=\"1\" mbr-gallery-first-count=\"1\" mbr-gallery-second-count=\"1\" mbr-gallery-third-count=\"1\" mbr-gallery-fourth-count=\"2\" mbr-gallery-show-text mbr-gallery-flex-vertical></div>\n    </div>\n\n</section>",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"1\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"1\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#efefef\">\n        \n        <header>Gallery</header>\n        <input type=\"gallery\" subtype=\"flex\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"2\" mbr-gallery-count=\"2\" mbr-gallery-first-count=\"1\" mbr-gallery-second-count=\"1\" mbr-gallery-third-count=\"1\" mbr-gallery-fourth-count=\"2\" mbr-gallery-show-text mbr-gallery-flex-vertical></div>\n    </div>\n\n</section>",
           "_anchor": "gallery4-8i",
           "_isUserblock": true,
           "_cid": "sNsehyBhYb",
@@ -680,12 +680,12 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/2009-d-co-reunion-640x424.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/2009-d-co-reunion-640x424-640x424.jpg",
+                "image": "@PROJECT_PATH@/assets/images/2003-d-co-reunion-1600x1200.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/2003-d-co-reunion-1600x1200-800x600.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "2009 - Men",
+                "caption": "2003 - Men",
                 "active": false
               },
               {
@@ -693,12 +693,12 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/mon-group2-1.jpg",
-                "thumb": "file:///C:/Users/lvand/AppData/Local/Mobirise.com/Mobirise/projects/project-2020-03-15_200536/assets/images/mon-group2-1-646x430.jpg",
+                "image": "@PROJECT_PATH@/assets/images/2002-d-co-reunion-nashville-1715x1068.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/2002-d-co-reunion-nashville-1715x1068-800x498.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "MONDAY - GROUP 2<br>TERRI&nbsp; RICHARD&nbsp; SHARON&nbsp; PHIL&nbsp; MIKE&nbsp; TREVA&nbsp; BONNIE&nbsp; BERYL",
+                "caption": "2002- Men",
                 "active": true
               }
             ]
@@ -3430,10 +3430,14 @@
               ".image-block": {
                 "width": "100% !important"
               }
+            },
+            ".mbr-figure-caption div": {
+              "color": "#f7e90c",
+              "text-align": "right"
             }
           },
           "_name": "image2",
-          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>        \n        \n        <input type=\"range\" inline title=\"Width\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"100\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth==false\">\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#149dcc\" condition=\"gradientBg && fullWidth==false\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n            <img src=\"@PROJECT_PATH@/assets/images/2021-d-co-men19-men-2566x1925.jpg\" alt=\"Mobirise\" title>\n            <figcaption class=\"mbr-figure-caption mbr-figure-caption-over\" mbr-if=\"showText\">\n                <div mbr-text class=\"pb-5 px-3 mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-figure-caption div\">\n                    2021 - Reunion</div>\n            </figcaption>\n        </div>\n    </figure>\n</section>",
+          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>        \n        \n        <input type=\"range\" inline title=\"Width\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"100\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth==false\">\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#149dcc\" condition=\"gradientBg && fullWidth==false\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n            <img src=\"@PROJECT_PATH@/assets/images/2023-d-co-reunion-2534x1390.jpg\" alt=\"Mobirise\" title>\n            <figcaption class=\"mbr-figure-caption mbr-figure-caption-over\" mbr-if=\"showText\">\n                <div mbr-text class=\"pb-5 px-3 mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-figure-caption div\">\n                    <br><br><b><br></b><br><b>2023 - Reunion</b><br><b><br></b></div>\n            </figcaption>\n        </div>\n    </figure>\n</section>",
           "_cid": "s3gGg6n66e",
           "_anchor": "image2-3y",
           "_sourceTheme": "mobirise4",
